@@ -1,0 +1,52 @@
+/*geral*/
+body{
+    background-image: url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=borrao-codificacao-codigos-computador-577585.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    
+    padding: 0;
+    margin:0;
+    height: 100vh;
+  }
+  
+  /*menu*/
+  .menu ul{
+    margin:  0 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #97B1A6;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  /*títulos*/
+  .titles{
+    margin: auto 10px;
+    background-color: #407076cc;
+  }
+  
+  .site-title, 
+  .site-subtitle{
+    text-align:center;
+    color: #EBBAB9;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
+  
+  /*links*/
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: #407076;
+  }
+  
